@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #7CD1B8;
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height:2rem;
+    width: 20rem;
+    font-size: x-large;
+    background-color: #F2F2F2;
+    padding-left: 1rem;
+    border-radius: 20px;
+    border: none;
+        transition: width 2s,height 1s,background-color 1s, font-size 1s;
+    
+}
+input:hover{
+    height: 3rem;
+    width: 30rem;
+    background-color: #FAEDC6;
+    font-size: xx-large;
+    
+}
+#vaccine{
+    /* margin-top: 1.5rem; */
+    margin-left: 3rem;
+    font-size: xx-large;
+    size: 10rem;
+}
+.pin{
+    margin-top: 13rem;
+}
+.enter{
+    border: none;
+    width: 3rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    background-color: #FAEDC6;
+    border-radius: 20px;
+
+}
